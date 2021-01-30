@@ -17,7 +17,7 @@ Feature Hashing and SimHash takes high dimensional real valued vectors as input,
   timestamp = {Mon, 03 Feb 2020 19:47:40 +0100},  
   biburl    = {https://dblp.org/rec/conf/icdm/PratapBR19.bib},  
   bibsource = {dblp computer science bibliography, https://dblp.org}  
-}
+  }
 
 
 @inproceedings{Feature_Hashing,   
