@@ -6,18 +6,18 @@ Feature Hashing and SimHash takes high dimensional real valued vectors as input,
 
 
 @inproceedings{Feature_Hashing,   
-  author    = {Kilian Q. Weinberger and nirban Dasgupta and John Langford and Alexander J. Smola and Josh Attenberg},          
-  title     = {Feature hashing for large scale multitask learning},  
-  booktitle = {Proceedings of the 26th Annual International Conference on Machine    
+    author    = {Kilian Q. Weinberger and nirban Dasgupta and John Langford and Alexander J. Smola and Josh Attenberg},          
+    title     = {Feature hashing for large scale multitask learning},  
+    booktitle = {Proceedings of the 26th Annual International Conference on Machine    
                Learning, {ICML} 2009, Montreal, Quebec, Canada, June 14-18, 2009},     
-  pages     = {1113--1120},          
-  year      = {2009},          
-  crossref  = {DBLP:conf/icml/2009},   
-  url       = {https://doi.org/10.1145/1553374.1553516},  
-  doi       = {10.1145/1553374.1553516},       
-  timestamp = {Tue, 06 Nov 2018 16:58:29 +0100},     
-  biburl    = {https://dblp.org/rec/conf/icml/WeinbergerDLSA09.bib},   
-  bibsource = {dblp computer science bibliography, https://dblp.org}       
+    pages     = {1113--1120},          
+    year      = {2009},          
+    crossref  = {DBLP:conf/icml/2009},   
+    url       = {https://doi.org/10.1145/1553374.1553516},  
+    doi       = {10.1145/1553374.1553516},       
+    timestamp = {Tue, 06 Nov 2018 16:58:29 +0100},     
+    biburl    = {https://dblp.org/rec/conf/icml/WeinbergerDLSA09.bib},   
+    bibsource = {dblp computer science bibliography, https://dblp.org}       
 }
 
 
