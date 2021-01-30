@@ -4,21 +4,6 @@ We also provide implementation of  some of beaslines used in the paper for compa
 
 Feature Hashing and SimHash takes high dimensional real valued vectors as input, and outputs low-dimensional real valued which closely estimate the original pairwise Inner product and Cosine similarity, respectively. We adhocly apply them for categorical vectors, and as their sketches are discrete vectors, we report the hamming distance from the sketch as the estimate of original pairwise Hamming distance between data points. We use the following reference of Feature hashing and SimHash respectively. 
 
-@inproceedings{binsketch,  
-  author    = {Rameshwar Pratap and Debajyoti Bera and Karthik Revanuru},   
-  title     = {Efficient Sketching Algorithm for Sparse Binary Data},  
-  booktitle = {2019 {IEEE} International Conference on Data Mining, {ICDM} 2019,  
-               Beijing, China, November 8-11, 2019},  
-  pages     = {508--517},  
-  year      = {2019},  
-  crossref  = {DBLP:conf/icdm/2019},  
-  url       = {https://doi.org/10.1109/ICDM.2019.00061},  
-  doi       = {10.1109/ICDM.2019.00061},  
-  timestamp = {Mon, 03 Feb 2020 19:47:40 +0100},  
-  biburl    = {https://dblp.org/rec/conf/icdm/PratapBR19.bib},  
-  bibsource = {dblp computer science bibliography, https://dblp.org}  
-  }
-
 
 @inproceedings{Feature_Hashing,   
   author    = {Kilian Q. Weinberger and nirban Dasgupta and John Langford and Alexander J. Smola and Josh Attenberg},          
@@ -34,6 +19,7 @@ Feature Hashing and SimHash takes high dimensional real valued vectors as input,
   biburl    = {https://dblp.org/rec/conf/icml/WeinbergerDLSA09.bib},   
   bibsource = {dblp computer science bibliography, https://dblp.org}       
 }
+
 
 @inproceedings{SimHash,
  author    = {Moses Charikar},
