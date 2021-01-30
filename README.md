@@ -4,12 +4,12 @@ We also provide implementation of  some of beaslines used in the paper for compa
 
 Feature Hashing and SimHash takes high dimensional real valued vectors as input, and outputs low-dimensional real valued which closely estimate the original pairwise Inner product and Cosine similarity, respectively. We adhocly apply them for categorical vectors, and as their sketches are discrete vectors, we report the hamming distance from the sketch as the estimate of original pairwise Hamming distance between data points. We use the following reference of Feature hashing and SimHash respectively. 
 
-@inproceedings{Feature_Hashing,
-  author    = {Kilian Q. Weinberger and
-               Anirban Dasgupta and
-               John Langford and
-               Alexander J. Smola and
-               Josh Attenberg},
+@inproceedings{Feature_Hashing, 
+  author    = {Kilian Q. Weinberger and 
+               Anirban Dasgupta and  
+               John Langford and   
+               Alexander J. Smola and 
+               Josh Attenberg}, 
   title     = {Feature hashing for large scale multitask learning},
   booktitle = {Proceedings of the 26th Annual International Conference on Machine
                Learning, {ICML} 2009, Montreal, Quebec, Canada, June 14-18, 2009},
